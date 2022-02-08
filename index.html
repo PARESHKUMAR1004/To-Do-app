@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="Page Description">
+  <meta name="author" content="Afolabi mayowa">
+  <title>Todo list</title>
+
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link href="css/main.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+  <div class="container ">
+    <div class="row">
+      <div class="col-sm">
+        <h1 id="date">Date:</h1>
+      </div>
+      <div class="col-sm">
+        <h1 id="time">Current Time:</h2>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <div class="container">
+    <h3 id="wish"></h3>
+    <img src="" alt="Image" id="image">
+  </div>
+
+
+
+
+
+  <div class="container">
+    <h2 class="text-center">Todo List App</h2>
+
+    <div class="form-group">
+      <label for="itemInput">Add Item</label>
+      <input type="text" class="form-control" name="" id="itemInput">
+
+      <div class="timeInput container ">
+        <label for="startTime">Enter Start Time</label>
+        <input type="time" name="" class="" id="startTime">
+        <span class="timeInput-addon"></span>
+
+        <label for="endTime">Enter End Time</label>
+        <input type="time" name="" class="" id="endTime">
+      </div>
+    </div>
+    <button id="addButton" class="btn btn-primary">Add To List</button>
+    <button id="clearButton" class="btn btn-danger">Clear Todo List</button>
+    <h3>Todo List</h3>
+    <ul id="todoList"></ul>
+
+    <h3>TimedOut Lists</h3>
+    <ul id="timedOut"></ul>
+
+  </div>
+
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
